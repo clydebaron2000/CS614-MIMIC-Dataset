@@ -1,0 +1,48 @@
+[SCHEMA] discovering types/top-cats from /storage/mimic_data/output/mimic_iv_subjects_sample10_with_dx_px.jsonl
+[BUILD] constructing matrices
+[INFO] subjects=36462  features=1227
+[TRAIN] code=4019  (pos=4157, neg=25012, spw=6.02)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_4019.csv
+[TRAIN] code=E785  (pos=3580, neg=25589, spw=7.15)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_E785.csv
+[TRAIN] code=I10  (pos=3843, neg=25326, spw=6.59)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_I10.csv
+[TRAIN] code=2724  (pos=2801, neg=26368, spw=9.41)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_2724.csv
+[TRAIN] code=Z87891  (pos=2644, neg=26525, spw=10.03)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_Z87891.csv
+[TRAIN] code=K219  (pos=2437, neg=26732, spw=10.97)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_K219.csv
+[TRAIN] code=53081  (pos=2027, neg=27142, spw=13.39)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_53081.csv
+[TRAIN] code=25000  (pos=1707, neg=27462, spw=16.09)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_25000.csv
+[TRAIN] code=F329  (pos=1905, neg=27264, spw=14.31)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_F329.csv
+[TRAIN] code=I2510  (pos=1657, neg=27512, spw=16.60)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_I2510.csv
+[TRAIN] code=F419  (pos=1836, neg=27333, spw=14.89)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_F419.csv
+[TRAIN] code=41401  (pos=1525, neg=27644, spw=18.13)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_41401.csv
+[TRAIN] code=42731  (pos=1401, neg=27768, spw=19.82)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_42731.csv
+[TRAIN] code=311  (pos=1612, neg=27557, spw=17.09)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_311.csv
+[TRAIN] code=N179  (pos=1821, neg=27348, spw=15.02)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_N179.csv
+[TRAIN] code=4280  (pos=1182, neg=27987, spw=23.68)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_4280.csv
+[TRAIN] code=Z20822  (pos=1912, neg=27257, spw=14.26)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_Z20822.csv
+[TRAIN] code=V1582  (pos=1458, neg=27711, spw=19.01)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_V1582.csv
+[TRAIN] code=Z7901  (pos=1336, neg=27833, spw=20.83)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_Z7901.csv
+[TRAIN] code=2449  (pos=1103, neg=28066, spw=25.45)
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_2449.csv
+[WROTE] /storage/mimic_data/output/top_features_xgb_columns_overall.csv
+[WROTE] /storage/mimic_data/output/least_features_xgb_columns_overall.csv
+[WROTE] /storage/mimic_data/output/xgb_label_metrics_columns.csv
+
+[DONE] Column-level feature selection (with exclusions) complete.

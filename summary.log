@@ -1,0 +1,52 @@
+[LOAD] Reading /storage/mimic_data/output/mimic_iv_subjects_sample10_with_dx_px.jsonl ...
+[INFO] Loaded 36462 subject records
+
+=== SUBJECT-LEVEL ===
+Total subjects: 36462
+Average #diagnoses per subject: 17.29
+Median #diagnoses per subject: 5
+Max #diagnoses per subject: 2077
+
+=== TOP DIAGNOSES ===
+4019 (v9) - Unspecified essential hypertension : 9938
+E785 (v10) - Hyperlipidemia, unspecified : 8463
+I10 (v10) - Essential (primary) hypertension : 8275
+2724 (v9) - Other and unspecified hyperlipidemia : 6485
+Z87891 (v10) - Personal history of nicotine dependence : 6321
+K219 (v10) - Gastro-esophageal reflux disease without esophagitis : 5586
+53081 (v9) - Esophageal reflux : 4847
+25000 (v9) - Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled : 4495
+F329 (v10) - Major depressive disorder, single episode, unspecified : 4368
+I2510 (v10) - Atherosclerotic heart disease of native coronary artery without angina pectoris : 4026
+F419 (v10) - Anxiety disorder, unspecified : 3859
+41401 (v9) - Coronary atherosclerosis of native coronary artery : 3601
+42731 (v9) - Atrial fibrillation : 3597
+311 (v9) - Depressive disorder, not elsewhere classified : 3570
+N179 (v10) - Acute kidney failure, unspecified : 3536
+4280 (v9) - Congestive heart failure, unspecified : 3492
+Z20822 (v10) - Contact with and (suspected) exposure to COVID-19 : 3291
+V1582 (v9) - Personal history of tobacco use : 3037
+Z7901 (v10) - Long term (current) use of anticoagulants : 3023
+2449 (v9) - Unspecified acquired hypothyroidism : 2978
+
+=== TABLE ROW COUNTS (across all subjects) ===
+labevents: 15889261
+emar_detail: 8639465
+poe: 5211094
+emar: 4232130
+prescriptions: 2025139
+pharmacy: 1780208
+ingredientevents: 1443166
+inputevents: 1109913
+datetimeevents: 1026650
+poe_detail: 843926
+omr: 790443
+diagnoses_icd: 630493
+diagnoses_icd_labeled: 630493
+outputevents: 546767
+microbiologyevents: 397545
+transfers: 240262
+procedures_icd_labeled: 85607
+procedures_icd: 85607
+procedureevents: 81832
+drgcodes: 76032

@@ -1,0 +1,60 @@
+[LOAD] universe from /storage/mimic_data/hosp_csvs/patients.csv
+[INFO] Total unique subject_id: 364,627
+[INFO] Sampled 36,462 subjects (~10%)
+[MAP] building hadm_id->subject_id from /storage/mimic_data/hosp_csvs/admissions.csv
+[MAP] mapped 54,165 admissions
+[WARN] header read failed for *: No columns to parse from file
+[SCAN] admissions [subject_id]
+[OK]  admissions
+[SKIP] d_hcpcs: neither subject_id nor hadm_id present
+[SKIP] d_icd_diagnoses: neither subject_id nor hadm_id present
+[SKIP] d_icd_procedures: neither subject_id nor hadm_id present
+[SKIP] d_labitems: neither subject_id nor hadm_id present
+[SCAN] diagnoses_icd [subject_id]
+[OK]  diagnoses_icd
+[SCAN] drgcodes [subject_id]
+[OK]  drgcodes
+[SCAN] emar [subject_id]
+[OK]  emar
+[SCAN] emar_detail [subject_id]
+[OK]  emar_detail
+[SCAN] hcpcsevents [subject_id]
+[OK]  hcpcsevents
+[SCAN] labevents [subject_id]
+[OK]  labevents
+[SCAN] microbiologyevents [subject_id]
+[OK]  microbiologyevents
+[SCAN] omr [subject_id]
+[OK]  omr
+[SCAN] patients [subject_id]
+[OK]  patients
+[SCAN] pharmacy [subject_id]
+[OK]  pharmacy
+[SCAN] poe [subject_id]
+[OK]  poe
+[SCAN] poe_detail [subject_id]
+[OK]  poe_detail
+[SCAN] prescriptions [subject_id]
+[OK]  prescriptions
+[SCAN] procedures_icd [subject_id]
+[OK]  procedures_icd
+[SKIP] provider: neither subject_id nor hadm_id present
+[SCAN] services [subject_id]
+[OK]  services
+[SCAN] transfers [subject_id]
+[OK]  transfers
+[SKIP] caregiver: neither subject_id nor hadm_id present
+[SKIP] d_items: neither subject_id nor hadm_id present
+[SCAN] datetimeevents [subject_id]
+[OK]  datetimeevents
+[SCAN] icustays [subject_id]
+[OK]  icustays
+[SCAN] ingredientevents [subject_id]
+[OK]  ingredientevents
+[SCAN] inputevents [subject_id]
+[OK]  inputevents
+[SCAN] outputevents [subject_id]
+[OK]  outputevents
+[SCAN] procedureevents [subject_id]
+[OK]  procedureevents
+[DONE] wrote 36462 subject records -> /storage/mimic_data/output/mimic_iv_subjects_sample10.jsonl
